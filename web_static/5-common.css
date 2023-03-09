@@ -65,6 +65,8 @@ body {
     color: #756c6c;
     margin-left: 20px;
     margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .amenities h3 {
@@ -76,6 +78,8 @@ body {
 
 .amenities h4 {
     color: #756c6c;
+    font-weight: 400;
+    font-size: 14px;
     margin-top: -13px;
     margin-left: -202px;
 }
