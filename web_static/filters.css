@@ -69,21 +69,29 @@ button:hover {
     font-size: 14px;
 }
 
+.popover {
+    display: none;
+}
 
 .locations:hover .popover {
     color: black;
-
-    list-style-type: none;
+    position: relative;
+    z-index: 1;
+    display: block;
 
     background-color: #fafafa;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     font-size: 16px;
+    padding: 3px 3px;
 }
 
 .amenities:hover .popover {
     color: black;
+    position: relative;
+    z-index: 1;
+    display: block;
 
     margin-left: -145px;
 
@@ -92,8 +100,10 @@ button:hover {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     font-size: 16px;
+    padding: 25px 25px;
 }
 
 ul {
     list-style-type: none;
 }
+
